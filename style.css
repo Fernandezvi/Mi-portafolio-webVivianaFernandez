@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: seagreen;
+    padding-top: 70px;
+    background-color: rgb(248, 243, 237);
+
+}
+nav{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: lightslategrey; 
+    text-align: center;
+    
+}
+
+.menu-item {
+    color: rgb(224, 23, 134);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+.menu-item:hover {
+    background-color: darkgrey;
+    transition: all 0.4s ease-in-out;
+
+}
+header {
+    background-color: rgb(7, 87, 73);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 40px;
+  
+}
+section {
+    padding: 20px;
+    border: 3px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+
+#habilidades ul li {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+#experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 10px;
+  }
+
+  #proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #proyectos ul li a {
+    font-weight: bold;
+    font-style: italic; 
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #proyectos ul li a:hover {
+    text-decoration: underline;
+  }
+
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  .fa {
+   
+    color: #07775f;
+    text-decoration: none;
+    margin-left: 0px;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
